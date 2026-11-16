@@ -37,84 +37,146 @@ Most developers struggle to build deep intuition for algorithms by passively wat
 
 ## 🎬 Featured Visualizer Showcases
 
-<div align="center">
+A quick glance at 16 canonical algorithms & LeetCode patterns running inside the FAANGPrep step-by-step visual execution engine:
 
-### 1. Quick Sort: In-Place Partitioning & Pivot Swapping
-*Watch the pivot element partition the array into smaller and larger subarrays step-by-step.*
-
-<a href="https://faangprep.com/dsa/sorting/quick-sort/">
-  <img src="assets/quick-sort.gif" alt="Quick Sort Visualizer" width="760px" style="border-radius: 8px; border: 1px solid #30363d;" />
-</a>
-
-👉 **[Try Quick Sort Live ↗](https://faangprep.com/dsa/sorting/quick-sort/)**
-
-<br />
-
-### 2. Binary Search: Dynamic Pointer Convergence
-*Observe low, mid, and high pointers narrow down the search space in $O(\log n)$ logarithmic time.*
-
-<a href="https://faangprep.com/dsa/searching/binary-search/">
-  <img src="assets/binary-search.gif" alt="Binary Search Visualizer" width="760px" style="border-radius: 8px; border: 1px solid #30363d;" />
-</a>
-
-👉 **[Try Binary Search Live ↗](https://faangprep.com/dsa/searching/binary-search/)**
-
-<br />
-
-### 3. LeetCode Pattern: Two Pointers (Two Sum II)
-*Step through canonical LeetCode interview patterns with real pointer convergence and condition checks.*
-
-<a href="https://faangprep.com/dsa-patterns/two-pointers/two-sum-ii-input-array-is-sorted/">
-  <img src="assets/two-pointers-pattern.gif" alt="Two Pointers Pattern" width="760px" style="border-radius: 8px; border: 1px solid #30363d;" />
-</a>
-
-👉 **[Try Two Sum II Visual Solution ↗](https://faangprep.com/dsa-patterns/two-pointers/two-sum-ii-input-array-is-sorted/)**
-
-<br />
-
-### 4. Dijkstra's Algorithm: Shortest Path Finding
-*Watch unvisited nodes, edge relaxation, and greedy shortest path discovery across weighted graphs.*
-
-<a href="https://faangprep.com/dsa/structures/dijkstras-algorithm/">
-  <img src="assets/dijkstras-algorithm.gif" alt="Dijkstra Algorithm Visualizer" width="760px" style="border-radius: 8px; border: 1px solid #30363d;" />
-</a>
-
-👉 **[Try Dijkstra's Algorithm Live ↗](https://faangprep.com/dsa/structures/dijkstras-algorithm/)**
-
-<br />
-
-### 5. Dynamic Programming: State Transitions & Memoization
-*Watch the state tree transition into an $O(n)$ linear iterative array table.*
-
-<a href="https://faangprep.com/dsa/dp/fibonacci-sequence/">
-  <img src="assets/fibonacci-dp.gif" alt="Dynamic Programming Fibonacci Visualizer" width="760px" style="border-radius: 8px; border: 1px solid #30363d;" />
-</a>
-
-👉 **[Try DP Fibonacci Live ↗](https://faangprep.com/dsa/dp/fibonacci-sequence/)**
-
-<br />
-
-### 6. Kadane's Algorithm: Maximum Subarray Window
-*Track the running sum resetting vs. extending in optimal $O(n)$ time.*
-
-<a href="https://faangprep.com/dsa/arrays/kadanes-algorithm/">
-  <img src="assets/kadanes-algorithm.gif" alt="Kadanes Algorithm Visualizer" width="760px" style="border-radius: 8px; border: 1px solid #30363d;" />
-</a>
-
-👉 **[Try Kadane's Algorithm Live ↗](https://faangprep.com/dsa/arrays/kadanes-algorithm/)**
-
-<br />
-
-### 7. Breadth-First Search (BFS): Graph Level Order Traversal
-*Observe queue-driven level expansion across undirected graph rings.*
-
-<a href="https://faangprep.com/dsa/structures/breadth-first-search/">
-  <img src="assets/breadth-first-search.gif" alt="BFS Visualizer" width="760px" style="border-radius: 8px; border: 1px solid #30363d;" />
-</a>
-
-👉 **[Try Breadth-First Search Live ↗](https://faangprep.com/dsa/structures/breadth-first-search/)**
-
-</div>
+<table width="100%">
+  <tr>
+    <td width="25%" align="center" valign="top">
+      <b>⚡ Quick Sort</b><br />
+      <a href="https://faangprep.com/dsa/sorting/quick-sort/">
+        <img src="assets/quick-sort.gif" alt="Quick Sort Visualizer" width="100%" />
+      </a><br />
+      <sub>In-Place Partitioning</sub><br />
+      <a href="https://faangprep.com/dsa/sorting/quick-sort/"><b>[Try Live ↗]</b></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>🔍 Binary Search</b><br />
+      <a href="https://faangprep.com/dsa/searching/binary-search/">
+        <img src="assets/binary-search.gif" alt="Binary Search Visualizer" width="100%" />
+      </a><br />
+      <sub>O(log n) Convergence</sub><br />
+      <a href="https://faangprep.com/dsa/searching/binary-search/"><b>[Try Live ↗]</b></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>🧩 Two Pointers</b><br />
+      <a href="https://faangprep.com/dsa-patterns/two-pointers/two-sum-ii-input-array-is-sorted/">
+        <img src="assets/two-pointers-pattern.gif" alt="Two Pointers Pattern" width="100%" />
+      </a><br />
+      <sub>Two Sum II Solution</sub><br />
+      <a href="https://faangprep.com/dsa-patterns/two-pointers/two-sum-ii-input-array-is-sorted/"><b>[Try Live ↗]</b></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>🕸️ Dijkstra's Algorithm</b><br />
+      <a href="https://faangprep.com/dsa/structures/dijkstras-algorithm/">
+        <img src="assets/dijkstras-algorithm.gif" alt="Dijkstra Algorithm Visualizer" width="100%" />
+      </a><br />
+      <sub>Greedy Shortest Paths</sub><br />
+      <a href="https://faangprep.com/dsa/structures/dijkstras-algorithm/"><b>[Try Live ↗]</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" align="center" valign="top">
+      <b>🪟 Sliding Window</b><br />
+      <a href="https://faangprep.com/dsa-patterns/sliding-window/">
+        <img src="assets/sliding-window.gif" alt="Sliding Window Visualizer" width="100%" />
+      </a><br />
+      <sub>Contiguous Subarray Bounds</sub><br />
+      <a href="https://faangprep.com/dsa-patterns/sliding-window/"><b>[Try Live ↗]</b></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>📈 0/1 Knapsack (DP)</b><br />
+      <a href="https://faangprep.com/dsa/dp/0-1-knapsack/">
+        <img src="assets/knapsack-dp.gif" alt="0/1 Knapsack Visualizer" width="100%" />
+      </a><br />
+      <sub>2D DP State Matrix</sub><br />
+      <a href="https://faangprep.com/dsa/dp/0-1-knapsack/"><b>[Try Live ↗]</b></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>🌳 Binary Search Tree</b><br />
+      <a href="https://faangprep.com/dsa/structures/binary-search-tree/">
+        <img src="assets/binary-search-tree.gif" alt="BST Visualizer" width="100%" />
+      </a><br />
+      <sub>Insert, Search & Delete</sub><br />
+      <a href="https://faangprep.com/dsa/structures/binary-search-tree/"><b>[Try Live ↗]</b></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>👑 N-Queens</b><br />
+      <a href="https://faangprep.com/dsa/backtracking/n-queens/">
+        <img src="assets/n-queens.gif" alt="N-Queens Visualizer" width="100%" />
+      </a><br />
+      <sub>Backtracking State Tree</sub><br />
+      <a href="https://faangprep.com/dsa/backtracking/n-queens/"><b>[Try Live ↗]</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" align="center" valign="top">
+      <b>🥞 Monotonic Stack</b><br />
+      <a href="https://faangprep.com/dsa-patterns/stack/daily-temperatures/">
+        <img src="assets/monotonic-stack-pattern.gif" alt="Monotonic Stack Visualizer" width="100%" />
+      </a><br />
+      <sub>Daily Temperatures Pattern</sub><br />
+      <a href="https://faangprep.com/dsa-patterns/stack/daily-temperatures/"><b>[Try Live ↗]</b></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>🌐 Breadth-First Search</b><br />
+      <a href="https://faangprep.com/dsa/structures/breadth-first-search/">
+        <img src="assets/breadth-first-search.gif" alt="BFS Visualizer" width="100%" />
+      </a><br />
+      <sub>Queue Level Traversal</sub><br />
+      <a href="https://faangprep.com/dsa/structures/breadth-first-search/"><b>[Try Live ↗]</b></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>🔀 Merge Sort</b><br />
+      <a href="https://faangprep.com/dsa/sorting/merge-sort/">
+        <img src="assets/merge-sort.gif" alt="Merge Sort Visualizer" width="100%" />
+      </a><br />
+      <sub>Divide & Conquer Recursion</sub><br />
+      <a href="https://faangprep.com/dsa/sorting/merge-sort/"><b>[Try Live ↗]</b></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>🪢 KMP String Match</b><br />
+      <a href="https://faangprep.com/dsa/strings/kmp-algorithm/">
+        <img src="assets/kmp-algorithm.gif" alt="KMP Algorithm Visualizer" width="100%" />
+      </a><br />
+      <sub>Prefix Table (π) Shifts</sub><br />
+      <a href="https://faangprep.com/dsa/strings/kmp-algorithm/"><b>[Try Live ↗]</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="25%" align="center" valign="top">
+      <b>📊 Kadane's Algorithm</b><br />
+      <a href="https://faangprep.com/dsa/arrays/kadanes-algorithm/">
+        <img src="assets/kadanes-algorithm.gif" alt="Kadane's Algorithm Visualizer" width="100%" />
+      </a><br />
+      <sub>Max Subarray Window</sub><br />
+      <a href="https://faangprep.com/dsa/arrays/kadanes-algorithm/"><b>[Try Live ↗]</b></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>🌲 Trie (Prefix Tree)</b><br />
+      <a href="https://faangprep.com/dsa/advanced/trie-introduction/">
+        <img src="assets/trie.gif" alt="Trie Visualizer" width="100%" />
+      </a><br />
+      <sub>Autocomplete & Lookups</sub><br />
+      <a href="https://faangprep.com/dsa/advanced/trie-introduction/"><b>[Try Live ↗]</b></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>🐇 Fast & Slow Pointers</b><br />
+      <a href="https://faangprep.com/dsa-patterns/linked-list/">
+        <img src="assets/fast-slow-pointers.gif" alt="Fast & Slow Pointers Visualizer" width="100%" />
+      </a><br />
+      <sub>Floyd's Cycle Detection</sub><br />
+      <a href="https://faangprep.com/dsa-patterns/linked-list/"><b>[Try Live ↗]</b></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <b>🌉 Kruskal's Algorithm</b><br />
+      <a href="https://faangprep.com/dsa/structures/minimum-spanning-tree/">
+        <img src="assets/kruskals-algorithm.gif" alt="Kruskal's Algorithm Visualizer" width="100%" />
+      </a><br />
+      <sub>MST via Disjoint-Set</sub><br />
+      <a href="https://faangprep.com/dsa/structures/minimum-spanning-tree/"><b>[Try Live ↗]</b></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
