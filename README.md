@@ -124,10 +124,13 @@ Most developers struggle to build deep intuition for algorithms by passively wat
 - [18 LeetCode Coding Patterns (325 Problems)](#-18-leetcode-coding-patterns-325-problems)
 - [Sorting Algorithms](#-sorting-algorithms)
 - [Searching Algorithms](#-searching-algorithms)
-- [Core Data Structures](#-core-data-structures)
+- [Core Data Structures & Advanced Trees](#-core-data-structures--advanced-trees)
+- [Mathematical & Number Theoretic Algorithms](#-mathematical--number-theoretic-algorithms)
+- [Backtracking & State Space Exploration](#-backtracking--state-space-exploration)
+- [Greedy Algorithms](#-greedy-algorithms)
 - [Dynamic Programming](#-dynamic-programming)
-- [Graph Algorithms](#-graph-algorithms)
-- [Advanced Algorithms & String Matching](#-advanced-algorithms--string-matching)
+- [Graph Algorithms & Network Properties](#-graph-algorithms--network-properties)
+- [Advanced Algorithms, Strings & Arrays](#-advanced-algorithms-strings--arrays)
 - [Contributing & Community](#-contributing)
 
 ---
@@ -141,7 +144,7 @@ All sheets feature one-line problem approaches, time/space complexity tags, and 
 | **Grind 75 Tracker** | 75 Problems | 100% Visualized | [Launch Grind 75 ↗](https://faangprep.com/grind-75/) |
 | **Blind 75 Revision Sheet** | 75 Problems | 100% Visualized | [Launch Blind 75 ↗](https://faangprep.com/blind-75/) |
 | **LeetCode 75 Roadmap** | 75 Problems | 100% Visualized | [Launch LeetCode 75 ↗](https://faangprep.com/leetcode-75/) |
-| **NeetCode 150 Roadmap** | 150 Problems | 100% Visualized | [Launch NeetCode 150 ↗](https://faangprep.com/neetcode-150/) |
+| **NeetCode 150 Roadmap** | 150 Problems | Interactive Tracker | [Launch NeetCode 150 ↗](https://faangprep.com/neetcode-150/) |
 | **Big-O Complexity Cheat Sheet** | All Structures | Full Chart | [View Big-O Cheat Sheet ↗](https://faangprep.com/dsa/big-o-cheat-sheet/) |
 | **DSA Pattern Recognition Guide** | 18 Patterns | Problem Signals | [Read Pattern Guide ↗](https://faangprep.com/dsa-patterns/cheat-sheet/) |
 
@@ -149,17 +152,17 @@ All sheets feature one-line problem approaches, time/space complexity tags, and 
 
 ## 🧩 18 LeetCode Coding Patterns (325 Problems)
 
-Master interview problems by understanding the underlying pattern rather than memorizing individual solutions:
+Master interview problems by understanding the underlying pattern rather than memorizing individual solutions. Each pattern below features its own unique, dedicated visualizer demonstration:
 
 | Coding Pattern | Visual Preview | Problems | Key Intuition | Visualizer Link |
 | :--- | :---: | :---: | :--- | :--- |
-| **Two Pointers** | <a href="https://faangprep.com/dsa-patterns/two-pointers/"><img src="assets/two-pointers-pattern.gif" width="160" alt="Two Pointers Visualizer" /></a> | 36 | Opposing or parallel index traversal on sorted sequences | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/two-pointers/) |
+| **Two Pointers** | <a href="https://faangprep.com/dsa-patterns/two-pointers/two-sum-ii-input-array-is-sorted/"><img src="assets/two-pointers-pattern.gif" width="160" alt="Two Pointers Visualizer" /></a> | 36 | Opposing or parallel index traversal on sorted sequences | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/two-pointers/) |
 | **Sliding Window** | <a href="https://faangprep.com/dsa-patterns/sliding-window/"><img src="assets/sliding-window.gif" width="160" alt="Sliding Window Visualizer" /></a> | 21 | Expand/shrink contiguous subarray boundaries | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/sliding-window/) |
-| **Monotonic Stack** | <a href="https://faangprep.com/dsa-patterns/stack/"><img src="assets/stack.gif" width="160" alt="Stack Visualizer" /></a> | 24 | Maintain monotonic invariant for Next Greater/Lesser | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/stack/) |
-| **Binary Search** | <a href="https://faangprep.com/dsa-patterns/binary-search/"><img src="assets/binary-search.gif" width="160" alt="Binary Search Visualizer" /></a> | 18 | Halve monotonic solution search spaces | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/binary-search/) |
-| **Breadth-First Search (BFS)** | <a href="https://faangprep.com/dsa-patterns/breadth-first-search/"><img src="assets/breadth-first-search.gif" width="160" alt="BFS Visualizer" /></a> | 17 | Level-order traversal & unweighted shortest paths | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/breadth-first-search/) |
-| **Depth-First Search (DFS)** | <a href="https://faangprep.com/dsa-patterns/depth-first-search/"><img src="assets/depth-first-search.gif" width="160" alt="DFS Visualizer" /></a> | 43 | Recursive tree branch exploration & path finding | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/depth-first-search/) |
-| **Dynamic Programming** | <a href="https://faangprep.com/dsa-patterns/dynamic-programming/"><img src="assets/fibonacci-dp.gif" width="160" alt="DP Visualizer" /></a> | 40 | Overlapping subproblems with optimal substructure | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/dynamic-programming/) |
+| **Monotonic Stack** | <a href="https://faangprep.com/dsa-patterns/stack/daily-temperatures/"><img src="assets/monotonic-stack-pattern.gif" width="160" alt="Monotonic Stack Pattern Visualizer" /></a> | 24 | Maintain monotonic invariant for Next Greater/Lesser element | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/stack/) |
+| **Binary Search** | <a href="https://faangprep.com/dsa-patterns/binary-search/search-in-rotated-sorted-array/"><img src="assets/binary-search-pattern.gif" width="160" alt="Binary Search Pattern Visualizer" /></a> | 18 | Halve search space on rotated & monotonic sorted arrays | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/binary-search/) |
+| **Breadth-First Search (BFS)** | <a href="https://faangprep.com/dsa-patterns/breadth-first-search/binary-tree-level-order-traversal/"><img src="assets/bfs-level-order-pattern.gif" width="160" alt="BFS Level Order Visualizer" /></a> | 17 | Level-order queue traversal & shortest distance | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/breadth-first-search/) |
+| **Depth-First Search (DFS)** | <a href="https://faangprep.com/dsa-patterns/depth-first-search/flood-fill/"><img src="assets/dfs-flood-fill-pattern.gif" width="160" alt="DFS Flood Fill Visualizer" /></a> | 43 | Recursive branch exploration, grid fills & path discovery | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/depth-first-search/) |
+| **Dynamic Programming** | <a href="https://faangprep.com/dsa-patterns/dynamic-programming/coin-change/"><img src="assets/dp-coin-change-pattern.gif" width="160" alt="DP Coin Change Pattern Visualizer" /></a> | 40 | Subproblem recurrence, coin change table & optimal substructure | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/dynamic-programming/) |
 | **Fast & Slow Pointers** | <a href="https://faangprep.com/dsa-patterns/linked-list/"><img src="assets/fast-slow-pointers.gif" width="160" alt="Fast & Slow Pointers Visualizer" /></a> | 23 | Floyd's cycle detection and midpoint discovery | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/linked-list/) |
 | **Heap / Priority Queue** | <a href="https://faangprep.com/dsa-patterns/heap-priority-queue/"><img src="assets/heap-priority-queue.gif" width="160" alt="Heap Priority Queue Visualizer" /></a> | 13 | Dynamic min/max discovery and Top-K elements | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/heap-priority-queue/) |
 | **Backtracking** | <a href="https://faangprep.com/dsa-patterns/backtracking/"><img src="assets/backtracking.gif" width="160" alt="Backtracking Visualizer" /></a> | 16 | Constraint satisfaction with state reversion | [Explore Pattern ↗](https://faangprep.com/dsa-patterns/backtracking/) |
@@ -203,22 +206,64 @@ Master interview problems by understanding the underlying pattern rather than me
 
 ---
 
-## 🌳 Core Data Structures
+## 🌳 Core Data Structures & Advanced Trees
 
 | Data Structure | Visual Preview | Operations & Mechanics Visualized | Live Interactive Demo |
 | :--- | :---: | :--- | :--- |
 | **Stack (LIFO)** | <a href="https://faangprep.com/dsa/structures/stack/"><img src="assets/stack.gif" width="160" alt="Stack Visualizer" /></a> | Push, pop, peek, and call stack frames | [Step Through ↗](https://faangprep.com/dsa/structures/stack/) |
-| **Queue (FIFO)** | <a href="https://faangprep.com/dsa/structures/queue/"><img src="assets/queue.gif" width="160" alt="Queue Visualizer" /></a> | Enqueue, dequeue, circular buffer wraps | [Step Through ↗](https://faangprep.com/dsa/structures/queue/) |
+| **Queue (FIFO)** | <a href="https://faangprep.com/dsa/structures/queue/"><img src="assets/queue.gif" width="160" alt="Queue Visualizer" /></a> | Enqueue, dequeue, and linear buffer tracking | [Step Through ↗](https://faangprep.com/dsa/structures/queue/) |
+| **Circular Queue** | <a href="https://faangprep.com/dsa/structures/circular-queue/"><img src="assets/circular-queue.gif" width="160" alt="Circular Queue Visualizer" /></a> | Ring buffer FIFO indexing with modulo wrap $(rear+1)\%N$ | [Step Through ↗](https://faangprep.com/dsa/structures/circular-queue/) |
+| **Deque (Double-Ended)** | <a href="https://faangprep.com/dsa/structures/deque/"><img src="assets/deque.gif" width="160" alt="Deque Visualizer" /></a> | Front/rear insert & delete operations in $O(1)$ time | [Step Through ↗](https://faangprep.com/dsa/structures/deque/) |
 | **Singly Linked List** | <a href="https://faangprep.com/dsa/structures/singly-linked-list/"><img src="assets/linked-list.gif" width="160" alt="Linked List Visualizer" /></a> | Head/tail insertion, middle deletion, and reversal | [Step Through ↗](https://faangprep.com/dsa/structures/singly-linked-list/) |
-| **Binary Search Tree** | <a href="https://faangprep.com/dsa/structures/binary-search-tree/"><img src="assets/binary-search-tree.gif" width="160" alt="BST Visualizer" /></a> | Insert, search, delete, and in-order/pre-order traversal | [Step Through ↗](https://faangprep.com/dsa/structures/binary-search-tree/) |
-| **AVL Tree** | <a href="https://faangprep.com/dsa/structures/avl-tree/"><img src="assets/avl-tree.gif" width="160" alt="AVL Tree Visualizer" /></a> | Left/Right & Left-Right/Right-Left self-balancing rotations | [Step Through ↗](https://faangprep.com/dsa/structures/avl-tree/) |
-| **Red-Black Tree** | <a href="https://faangprep.com/dsa/structures/red-black-tree/"><img src="assets/red-black-tree.gif" width="160" alt="Red-Black Tree Visualizer" /></a> | Node coloring, uncle balancing, and recoloring passes | [Step Through ↗](https://faangprep.com/dsa/structures/red-black-tree/) |
-| **Min/Max Binary Heap** | <a href="https://faangprep.com/dsa/advanced/heap-visualizer/"><img src="assets/heap-visualizer.gif" width="160" alt="Heap Visualizer" /></a> | Heapify up, heapify down, extract-min, and priority queues | [Step Through ↗](https://faangprep.com/dsa/advanced/heap-visualizer/) |
 | **Doubly Linked List** | <a href="https://faangprep.com/dsa/structures/doubly-linked-list/"><img src="assets/doubly-linked-list.gif" width="160" alt="Doubly Linked List Visualizer" /></a> | Forward/backward pointer relinking | [Step Through ↗](https://faangprep.com/dsa/structures/doubly-linked-list/) |
 | **Circular Linked List** | <a href="https://faangprep.com/dsa/structures/circular-linked-list/"><img src="assets/circular-linked-list.gif" width="160" alt="Circular Linked List Visualizer" /></a> | Tail-to-head cycle maintenance | [Step Through ↗](https://faangprep.com/dsa/structures/circular-linked-list/) |
+| **Binary Tree** | <a href="https://faangprep.com/dsa/structures/binary-tree/"><img src="assets/binary-tree.gif" width="160" alt="Binary Tree Visualizer" /></a> | Full, perfect, complete, balanced & skewed tree classifications | [Step Through ↗](https://faangprep.com/dsa/structures/binary-tree/) |
+| **Tree Traversal** | <a href="https://faangprep.com/dsa/structures/tree-traversal/"><img src="assets/tree-traversal.gif" width="160" alt="Tree Traversal Visualizer" /></a> | Inorder, Preorder, and Postorder recursive traversal walks | [Step Through ↗](https://faangprep.com/dsa/structures/tree-traversal/) |
+| **Binary Search Tree** | <a href="https://faangprep.com/dsa/structures/binary-search-tree/"><img src="assets/binary-search-tree.gif" width="160" alt="BST Visualizer" /></a> | Insert, search, delete, and in-order/pre-order traversal | [Step Through ↗](https://faangprep.com/dsa/structures/binary-search-tree/) |
+| **AVL Tree** | <a href="https://faangprep.com/dsa/structures/avl-tree/"><img src="assets/avl-tree.gif" width="160" alt="AVL Tree Visualizer" /></a> | LL, RR, LR, and RL self-balancing rotations | [Step Through ↗](https://faangprep.com/dsa/structures/avl-tree/) |
+| **Red-Black Tree** | <a href="https://faangprep.com/dsa/structures/red-black-tree/"><img src="assets/red-black-tree.gif" width="160" alt="Red-Black Tree Visualizer" /></a> | Node coloring, uncle balancing, and recoloring passes | [Step Through ↗](https://faangprep.com/dsa/structures/red-black-tree/) |
+| **Segment Tree** | <a href="https://faangprep.com/dsa/structures/segment-tree/"><img src="assets/segment-tree.gif" width="160" alt="Segment Tree Visualizer" /></a> | Range sum queries and point updates in $O(\log n)$ | [Step Through ↗](https://faangprep.com/dsa/structures/segment-tree/) |
+| **Fenwick Tree (BIT)** | <a href="https://faangprep.com/dsa/structures/fenwick-tree/"><img src="assets/fenwick-tree.gif" width="160" alt="Fenwick Tree Visualizer" /></a> | Prefix sums and point updates via lowest set bit isolation | [Step Through ↗](https://faangprep.com/dsa/structures/fenwick-tree/) |
+| **Min/Max Binary Heap** | <a href="https://faangprep.com/dsa/advanced/heap-visualizer/"><img src="assets/heap-visualizer.gif" width="160" alt="Heap Visualizer" /></a> | Heapify up, heapify down, extract-min, and priority queues | [Step Through ↗](https://faangprep.com/dsa/advanced/heap-visualizer/) |
 | **Hash Map** | <a href="https://faangprep.com/dsa/hashing/hash-map/"><img src="assets/hash-map.gif" width="160" alt="Hash Map Visualizer" /></a> | Bucket hashing, collision resolution via chaining/probing | [Step Through ↗](https://faangprep.com/dsa/hashing/hash-map/) |
 | **Trie (Prefix Tree)** | <a href="https://faangprep.com/dsa/advanced/trie-introduction/"><img src="assets/trie.gif" width="160" alt="Trie Visualizer" /></a> | Character node insertion, prefix match traversal | [Step Through ↗](https://faangprep.com/dsa/advanced/trie-introduction/) |
-| **Disjoint Set (Union-Find)** | <a href="https://faangprep.com/dsa/advanced/disjoint-set-visualizer/"><img src="assets/disjoint-set.gif" width="160" alt="Disjoint Set Visualizer" /></a> | Path compression and rank union | [Step Through ↗](https://faangprep.com/dsa/advanced/disjoint-set-visualizer/) |
+| **Disjoint Set (Union-Find)** | <a href="https://faangprep.com/dsa/advanced/disjoint-set-visualizer/"><img src="assets/disjoint-set.gif" width="160" alt="Disjoint Set Visualizer" /></a> | Path compression and rank-based union | [Step Through ↗](https://faangprep.com/dsa/advanced/disjoint-set-visualizer/) |
+
+---
+
+## 🔢 Mathematical & Number Theoretic Algorithms
+
+| Algorithm | Visual Preview | Category | Complexity | Live Interactive Demo |
+| :--- | :---: | :--- | :---: | :--- |
+| **Sieve of Eratosthenes** | <a href="https://faangprep.com/dsa/math/sieve-of-eratosthenes/"><img src="assets/sieve-of-eratosthenes.gif" width="160" alt="Sieve of Eratosthenes Visualizer" /></a> | Prime number filtering across array | $O(n \log \log n)$ | [Step Through ↗](https://faangprep.com/dsa/math/sieve-of-eratosthenes/) |
+| **Fast Exponentiation** | <a href="https://faangprep.com/dsa/math/fast-exponentiation/"><img src="assets/fast-exponentiation.gif" width="160" alt="Fast Exponentiation Visualizer" /></a> | Binary exponentiation ($x^n$ in logarithmic time) | $O(\log n)$ | [Step Through ↗](https://faangprep.com/dsa/math/fast-exponentiation/) |
+| **Euclidean GCD & LCM** | <a href="https://faangprep.com/dsa/math/gcd-lcm/"><img src="assets/gcd-lcm.gif" width="160" alt="GCD and LCM Visualizer" /></a> | Greatest Common Divisor remainder reduction | $O(\log(\min(a, b)))$ | [Step Through ↗](https://faangprep.com/dsa/math/gcd-lcm/) |
+| **Prime Factorization & Tests** | <a href="https://faangprep.com/dsa/math/primes/"><img src="assets/primes.gif" width="160" alt="Prime Factorization Visualizer" /></a> | Primality trial division & canonical prime factors | $O(\sqrt{n})$ | [Step Through ↗](https://faangprep.com/dsa/math/primes/) |
+| **Modular Arithmetic** | <a href="https://faangprep.com/dsa/math/modular-arithmetic/"><img src="assets/modular-arithmetic.gif" width="160" alt="Modular Arithmetic Visualizer" /></a> | Modular addition, subtraction & multiplication rings | $O(1)$ | [Step Through ↗](https://faangprep.com/dsa/math/modular-arithmetic/) |
+
+---
+
+## 🔄 Backtracking & State Space Exploration
+
+| Algorithm / Problem | Visual Preview | State Tree Exploration | Complexity | Live Interactive Demo |
+| :--- | :---: | :--- | :---: | :--- |
+| **N-Queens Problem** | <a href="https://faangprep.com/dsa/backtracking/n-queens/"><img src="assets/n-queens.gif" width="160" alt="N-Queens Visualizer" /></a> | Queen placement conflicts across row/col/diagonal checks | $O(N!)$ | [Step Through ↗](https://faangprep.com/dsa/backtracking/n-queens/) |
+| **Sudoku Solver** | <a href="https://faangprep.com/dsa/backtracking/sudoku-solver/"><img src="assets/sudoku-solver.gif" width="160" alt="Sudoku Solver Visualizer" /></a> | 9x9 grid constraint propagation and recursive cell rollback | $O(9^{N \times N})$ | [Step Through ↗](https://faangprep.com/dsa/backtracking/sudoku-solver/) |
+| **Rat in a Maze** | <a href="https://faangprep.com/dsa/backtracking/rat-in-a-maze/"><img src="assets/rat-in-a-maze.gif" width="160" alt="Rat in a Maze Visualizer" /></a> | 2D pathfinding, obstacle avoidance & dead-end reversion | $O(2^{N^2})$ | [Step Through ↗](https://faangprep.com/dsa/backtracking/rat-in-a-maze/) |
+| **Subsets (Power Set)** | <a href="https://faangprep.com/dsa/backtracking/subsets/"><img src="assets/subsets.gif" width="160" alt="Subsets Visualizer" /></a> | Binary decision tree branching (include vs. exclude) | $O(2^n)$ | [Step Through ↗](https://faangprep.com/dsa/backtracking/subsets/) |
+| **Permutations** | <a href="https://faangprep.com/dsa/backtracking/permutations/"><img src="assets/permutations.gif" width="160" alt="Permutations Visualizer" /></a> | Element swap and visited state tracking | $O(n!)$ | [Step Through ↗](https://faangprep.com/dsa/backtracking/permutations/) |
+
+---
+
+## 💡 Greedy Algorithms
+
+| Algorithm | Visual Preview | Strategy | Complexity | Live Interactive Demo |
+| :--- | :---: | :--- | :---: | :--- |
+| **Activity Selection** | <a href="https://faangprep.com/dsa/greedy/activity-selection/"><img src="assets/activity-selection.gif" width="160" alt="Activity Selection Visualizer" /></a> | Greedy choice by earliest finish time sorting | $O(n \log n)$ | [Step Through ↗](https://faangprep.com/dsa/greedy/activity-selection/) |
+| **Huffman Coding** | <a href="https://faangprep.com/dsa/greedy/huffman-coding/"><img src="assets/huffman-coding.gif" width="160" alt="Huffman Coding Visualizer" /></a> | Optimal prefix-free compression tree via min-heap merges | $O(n \log n)$ | [Step Through ↗](https://faangprep.com/dsa/greedy/huffman-coding/) |
+| **Interval Scheduling** | <a href="https://faangprep.com/dsa/greedy/interval-scheduling/"><img src="assets/interval-scheduling.gif" width="160" alt="Interval Scheduling Visualizer" /></a> | Maximum non-overlapping meeting selection | $O(n \log n)$ | [Step Through ↗](https://faangprep.com/dsa/greedy/interval-scheduling/) |
+| **Job Sequencing with Deadlines** | <a href="https://faangprep.com/dsa/greedy/job-sequencing/"><img src="assets/job-sequencing.gif" width="160" alt="Job Sequencing Visualizer" /></a> | Profit-greedy latest-available slot scheduling | $O(n^2)$ | [Step Through ↗](https://faangprep.com/dsa/greedy/job-sequencing/) |
+| **Minimum Platforms Required** | <a href="https://faangprep.com/dsa/greedy/minimum-platforms/"><img src="assets/minimum-platforms.gif" width="160" alt="Minimum Platforms Visualizer" /></a> | Simultaneous arrival & departure timeline sweeping | $O(n \log n)$ | [Step Through ↗](https://faangprep.com/dsa/greedy/minimum-platforms/) |
 
 ---
 
@@ -237,12 +282,15 @@ Master interview problems by understanding the underlying pattern rather than me
 
 ---
 
-## 🕸️ Graph Algorithms
+## 🕸️ Graph Algorithms & Network Properties
 
 | Algorithm | Visual Preview | Purpose | Complexity | Live Demo |
 | :--- | :---: | :--- | :---: | :--- |
 | **Breadth-First Search (BFS)** | <a href="https://faangprep.com/dsa/structures/breadth-first-search/"><img src="assets/breadth-first-search.gif" width="160" alt="BFS Visualizer" /></a> | Shortest path in unweighted graphs & level order | $O(V + E)$ | [Step Through ↗](https://faangprep.com/dsa/structures/breadth-first-search/) |
 | **Depth-First Search (DFS)** | <a href="https://faangprep.com/dsa/structures/depth-first-search/"><img src="assets/depth-first-search.gif" width="160" alt="DFS Visualizer" /></a> | Connected components, cycle detection | $O(V + E)$ | [Step Through ↗](https://faangprep.com/dsa/structures/depth-first-search/) |
+| **Cycle Detection (DFS / Kahn's)** | <a href="https://faangprep.com/dsa/structures/cycle-detection/"><img src="assets/cycle-detection.gif" width="160" alt="Cycle Detection Visualizer" /></a> | Directed & undirected back-edge cycle discovery | $O(V + E)$ | [Step Through ↗](https://faangprep.com/dsa/structures/cycle-detection/) |
+| **Connected Components** | <a href="https://faangprep.com/dsa/structures/connected-components/"><img src="assets/connected-components.gif" width="160" alt="Connected Components Visualizer" /></a> | Disjoint subgraph exploration via BFS/DFS | $O(V + E)$ | [Step Through ↗](https://faangprep.com/dsa/structures/connected-components/) |
+| **Bipartite Graph Check** | <a href="https://faangprep.com/dsa/structures/bipartite-graph/"><img src="assets/bipartite-graph.gif" width="160" alt="Bipartite Graph Visualizer" /></a> | 2-colorability verification using alternate node coloring | $O(V + E)$ | [Step Through ↗](https://faangprep.com/dsa/structures/bipartite-graph/) |
 | **Dijkstra's Algorithm** | <a href="https://faangprep.com/dsa/structures/dijkstras-algorithm/"><img src="assets/dijkstras-algorithm.gif" width="160" alt="Dijkstra Visualizer" /></a> | Single-source shortest path with non-negative weights | $O((V + E) \log V)$ | [Step Through ↗](https://faangprep.com/dsa/structures/dijkstras-algorithm/) |
 | **Bellman-Ford Algorithm** | <a href="https://faangprep.com/dsa/structures/bellman-ford-algorithm/"><img src="assets/bellman-ford.gif" width="160" alt="Bellman-Ford Visualizer" /></a> | Shortest path with negative edge cycles | $O(V \cdot E)$ | [Step Through ↗](https://faangprep.com/dsa/structures/bellman-ford-algorithm/) |
 | **Floyd-Warshall** | <a href="https://faangprep.com/dsa/structures/floyd-warshall-algorithm/"><img src="assets/floyd-warshall.gif" width="160" alt="Floyd-Warshall Visualizer" /></a> | All-pairs shortest path dynamic matrix | $O(V^3)$ | [Step Through ↗](https://faangprep.com/dsa/structures/floyd-warshall-algorithm/) |
@@ -253,7 +301,7 @@ Master interview problems by understanding the underlying pattern rather than me
 
 ---
 
-## 🎯 Advanced Algorithms & String Matching
+## 🎯 Advanced Algorithms, Strings & Arrays
 
 | Algorithm | Visual Preview | Category | Complexity | Live Demo |
 | :--- | :---: | :--- | :---: | :--- |
@@ -263,6 +311,10 @@ Master interview problems by understanding the underlying pattern rather than me
 | **Suffix Array & LCP** | <a href="https://faangprep.com/dsa/advanced/suffix-array/"><img src="assets/suffix-array.gif" width="160" alt="Suffix Array Visualizer" /></a> | Kasai's algorithm string indexing | $O(n \log n)$ | [Step Through ↗](https://faangprep.com/dsa/advanced/suffix-array/) |
 | **Mo's Algorithm** | <a href="https://faangprep.com/dsa/advanced/mos-algorithm-visualizer/"><img src="assets/mos-algorithm.gif" width="160" alt="Mo's Algorithm Visualizer" /></a> | Square-root decomposition offline range queries | $O((n + q) \sqrt{n})$ | [Step Through ↗](https://faangprep.com/dsa/advanced/mos-algorithm-visualizer/) |
 | **Sweep Line Technique** | <a href="https://faangprep.com/dsa/advanced/meeting-rooms/"><img src="assets/sweep-line.gif" width="160" alt="Sweep Line Visualizer" /></a> | Geometric interval & event line sweeping | $O(n \log n)$ | [Step Through ↗](https://faangprep.com/dsa/advanced/meeting-rooms/) |
+| **Boyer-Moore Voting** | <a href="https://faangprep.com/dsa/arrays/boyer-moore-voting/"><img src="assets/boyer-moore-voting.gif" width="160" alt="Boyer-Moore Voting Visualizer" /></a> | Linear scan majority element cancellation | $O(n)$ / $O(1)$ | [Step Through ↗](https://faangprep.com/dsa/arrays/boyer-moore-voting/) |
+| **Naive String Search** | <a href="https://faangprep.com/dsa/strings/naive-search/"><img src="assets/naive-search.gif" width="160" alt="Naive Search Visualizer" /></a> | Sliding pattern brute-force character comparison | $O((n - m + 1) \cdot m)$ | [Step Through ↗](https://faangprep.com/dsa/strings/naive-search/) |
+| **Anagram Verification** | <a href="https://faangprep.com/dsa/strings/anagram-check/"><img src="assets/anagram-check.gif" width="160" alt="Anagram Check Visualizer" /></a> | Character frequency hash counter balance | $O(n)$ | [Step Through ↗](https://faangprep.com/dsa/strings/anagram-check/) |
+| **Palindrome Verification** | <a href="https://faangprep.com/dsa/strings/palindrome-check/"><img src="assets/palindrome-check.gif" width="160" alt="Palindrome Check Visualizer" /></a> | Two-pointer inward symmetry scan | $O(n)$ / $O(1)$ | [Step Through ↗](https://faangprep.com/dsa/strings/palindrome-check/) |
 
 ---
 
