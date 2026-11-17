@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files, tests & scratch scripts
+test_*
+*.tmp
+*.temp
+*.log
+scratch/
+tmp/
+temp/
+
+# Node / Python / Playwright
+node_modules/
+__pycache__/
+*.pyc
+.playwright-mcp/
+*auth_state*.json
+*storage_state*.json
+*cookies*.json
